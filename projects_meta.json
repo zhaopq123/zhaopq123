@@ -1,0 +1,34 @@
+{
+  "shared-memory-mcp": {
+    "tagline": "给 AI Agent 的共享记忆服务",
+    "tech": "Markdown+git 存储 · 多租户硬隔离 · 17 工具 · 318 测试"
+  },
+  "social-insight-mcp": {
+    "tagline": "多平台内容选题分析 MCP",
+    "tech": "10 源热点聚合 · 跨源交叉验证 · 账号定位匹配"
+  },
+  "mcp-imagegen": {
+    "tagline": "图片 / 视频生成 MCP 服务器",
+    "tech": "文生图/图生图 · 文生视频/图生视频 · 代码生图/生视频（本地渲染）· 服务端代排队 · 智能退避 · 6 工具 · 713 测试"
+  },
+  "webnovel-mcp": {
+    "tagline": "长篇网文写作助手 MCP",
+    "tech": "任务书 + 章节提交链 + 伏笔台账 · 11 工具 · 状态防忘 · 零运行时依赖"
+  },
+  "diagram-design-mcp": {
+    "tagline": "编辑级图表设计系统 MCP",
+    "tech": "45 类图表目录 · 8 工具 · 82 图标库 · 单文件 HTML+SVG 产物 · 扁平 schema"
+  },
+  "repo-template": {
+    "tagline": "我的开源仓库模板",
+    "tech": "README 骨架 · MIT · 通用 .gitignore"
+  },
+  "html": {
+    "tagline": "静态 HTML 页面合集（多页小站示例）",
+    "tech": "HTML/CSS"
+  },
+  "websearch-mcp": {
+    "tagline": "给 AI 的联网搜索服务",
+    "tech": "多引擎直连与代理分流 · 节点池自运维 · 权威源分级 · 代理挂了自动降级直连 · 9 工具 · 466 测试"
+  }
+}
