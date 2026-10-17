@@ -45,6 +45,10 @@ def gh(*args: str, use_proxy: bool = False) -> str:
         env=GH_ENV if use_proxy else DIRECT_ENV,
         capture_output=True,
         text=True,
+        # gh 输出恒为 UTF-8；Windows 默认按 GBK 解码会在仓库 description 含中文时
+        # 直接把输出吞成 None（2026-10-17 实测）。显式指定编码，跨平台一致。
+        encoding="utf-8",
+        errors="replace",
         timeout=120,
     )
     if r.returncode != 0:

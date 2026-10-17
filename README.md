@@ -10,7 +10,7 @@
 [![Email](https://img.shields.io/badge/Email-ethan.zhao.dev%40outlook.com-blue)](mailto:ethan.zhao.dev@outlook.com)
 [![Gitee](https://img.shields.io/badge/Gitee-zhaopq-c71d23)](https://gitee.com/zhaopq)
 
-**8 个开源项目** · 全部 **MIT** · 4 个 MCP 服务在真实业务里 7×24 跑着
+**8 个开源项目** · 6 个 MCP 服务 · 全部 **MIT** · 4 个服务在生产 7×24 跑着
 
 </div>
 
@@ -72,25 +72,26 @@
 </td>
 <td width="50%" valign="top">
 
-### 📊 diagram-design-mcp
+### 🖋️ webnovel-mcp
 
-**编辑级图表设计系统 MCP**
+**长篇小说写作助手 MCP**
 
-45 类图表目录 + 扁平 schema，产出单文件 HTML/SVG —— 客户现场直接改数据就能重出图。
+把「设定 / 伏笔 / 进度」从聊天上下文搬到磁盘：每章先取任务书，写完提交事实增量，随时能体检重放。
 
-- 45 类图表 · 8 工具 · 82 图标库
-- 单文件 HTML + SVG 产物，零运行时依赖
-- 同一份配置在网页和 SVG 两处保持一致
-- 暗色主题贯穿 CSS/SVG，箭头标签遮罩检测
+- 19 节创作提示词 · 按章装配任务书 + 状态防忘
+- 章节提交链 + 伏笔台账 + 人物档案 + 节奏体检
+- **九维审查**：一致性 / 信息隔离 / 文风 / AI 味 / 可选外部查重
+- **老书可升级**：`doctor reconcile` 登记迁移基线，不丢手工设定
+- 12 工具 · 380 测试 · 零运行时依赖
 
-[GitHub](https://github.com/zhaopq123/diagram-design-mcp) · [Gitee](https://gitee.com/zhaopq/diagram-design-mcp)
+[GitHub](https://github.com/zhaopq123/webnovel-mcp) · [Gitee](https://gitee.com/zhaopq/webnovel-mcp)
 
 </td>
 </tr>
 </table>
 
-> **这些不是 demo。** 生产环境常驻 4 个 MCP 服务，部署在一台 **Android 手机**的
-> Termux + proot 容器里，runit 守护 7×24 在线 —— 共享记忆、联网搜索、图像视频生成
+> **这些不是 demo。** 生产环境常驻 4 个 MCP 服务（共享记忆、联网搜索、图像视频生成、网文写作），
+> 部署在一台 **Android 手机**的 Termux + proot 容器里，runit 守护 7×24 在线 ——
 > 都在真实业务里跑着，不在演示环境里。
 
 ---
@@ -103,7 +104,7 @@
 | **[shared-memory-mcp](https://github.com/zhaopq123/shared-memory-mcp)** | 给 AI Agent 的共享记忆服务 | Markdown+git 存储 · 多租户硬隔离 · 17 工具 · 318 测试 |
 | **[social-insight-mcp](https://github.com/zhaopq123/social-insight-mcp)** | 多平台内容选题分析 MCP | 10 源热点聚合 · 跨源交叉验证 · 账号定位匹配 |
 | **[mcp-imagegen](https://github.com/zhaopq123/mcp-imagegen)** | 图片 / 视频生成 MCP 服务器 | 文生图/图生图 · 文生视频/图生视频 · 代码生图/生视频（本地渲染）· 服务端代排队 · 智能退避 · 6 工具 · 713 测试 |
-| **[webnovel-mcp](https://github.com/zhaopq123/webnovel-mcp)** | 长篇网文写作助手 MCP | 任务书 + 章节提交链 + 伏笔台账 · 11 工具 · 状态防忘 · 零运行时依赖 |
+| **[webnovel-mcp](https://github.com/zhaopq123/webnovel-mcp)** | 长篇网文写作助手 MCP | 任务书 + 章节提交链 + 伏笔台账 · 九维审查 · 老书迁移基线 · 12 工具 · 19 节提示词 · 380 测试 |
 | **[diagram-design-mcp](https://github.com/zhaopq123/diagram-design-mcp)** | 编辑级图表设计系统 MCP | 45 类图表目录 · 8 工具 · 82 图标库 · 单文件 HTML+SVG 产物 · 扁平 schema |
 | **[repo-template](https://github.com/zhaopq123/repo-template)** | 我的开源仓库模板 | README 骨架 · MIT · 通用 .gitignore |
 | **[html](https://github.com/zhaopq123/html)** | 静态 HTML 页面合集（多页小站示例） | HTML/CSS |
@@ -136,7 +137,7 @@
 ## 🤝 能一起做的事
 
 - **业务侧 AI 落地** —— 把重复流程接成 Agent / 知识库 / 自动化，从需求到上线我一个人推到底
-- **MCP 服务定制与私有部署** —— 上面 4 个自建服务可以当脚手架，也接受按你的业务改造
+- **MCP 服务定制与私有部署** —— 上面这些自建服务可以当脚手架，也接受按你的业务改造
 - **设备选型与外贸** —— 咖啡机 / 无人零售设备的选型、落地与出口
 
 有具体场景想聊，发邮件或提 Issue 都行。
