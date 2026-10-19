@@ -1,7 +1,7 @@
 {
   "shared-memory-mcp": {
     "tagline": "给 AI Agent 的共享记忆服务",
-    "tech": "Markdown+git 存储 · 多租户硬隔离 · 17 工具 · 318 测试"
+    "tech": "Markdown+git 存储 · 多租户硬隔离 · 会话生命周期 · 9 工具（+7 别名）· 571 测试"
   },
   "social-insight-mcp": {
     "tagline": "多平台内容选题分析 MCP",
