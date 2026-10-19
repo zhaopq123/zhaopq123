@@ -64,8 +64,9 @@
 让 Agent 跨会话、跨机器记住项目结论 —— Markdown + git 存储，记忆可读、可 diff、可回滚。
 
 - **库 = 权限边界，工作空间 = 项目分类**
-- Web 面板 + 17 个 MCP 工具
-- 318 测试 · 端到端自检脚本一条命令跑完
+- 9 个直觉动词工具（+7 旧名别名）· Web 管理面板
+- 会话生命周期防串台 · 两段式读取省 59% token
+- 568 测试 · 端到端自检脚本一条命令跑完
 
 [GitHub](https://github.com/zhaopq123/shared-memory-mcp) · [Gitee](https://gitee.com/zhaopq/shared-memory-mcp)
 
@@ -90,7 +91,7 @@
 </tr>
 </table>
 
-> **这些不是 demo。** 生产环境常驻 4 个 MCP 服务（共享记忆、联网搜索、图像视频生成、网文写作），
+> **这些不是 demo。** 生产环境常驻 6 个 MCP 服务（共享记忆、联网搜索、图像视频生成、网文写作、内容选题、图表设计），
 > 部署在一台 **Android 手机**的 Termux + proot 容器里，runit 守护 7×24 在线 ——
 > 都在真实业务里跑着，不在演示环境里。
 
@@ -101,7 +102,7 @@
 <!-- SYNC:PROJECTS:START -->
 | 项目 | 一句话 | 技术点 |
 |---|---|---|
-| **[shared-memory-mcp](https://github.com/zhaopq123/shared-memory-mcp)** | 给 AI Agent 的共享记忆服务 | Markdown+git 存储 · 多租户硬隔离 · 17 工具 · 318 测试 |
+| **[shared-memory-mcp](https://github.com/zhaopq123/shared-memory-mcp)** | 给 AI Agent 的共享记忆服务 | Markdown+git 存储 · 多租户硬隔离 · 会话生命周期 · 9 工具（+7 别名）· 568 测试 |
 | **[social-insight-mcp](https://github.com/zhaopq123/social-insight-mcp)** | 多平台内容选题分析 MCP | 10 源热点聚合 · 跨源交叉验证 · 账号定位匹配 |
 | **[mcp-imagegen](https://github.com/zhaopq123/mcp-imagegen)** | 图片 / 视频生成 MCP 服务器 | 文生图/图生图 · 文生视频/图生视频 · 代码生图/生视频（本地渲染）· 服务端代排队 · 智能退避 · 6 工具 · 713 测试 |
 | **[webnovel-mcp](https://github.com/zhaopq123/webnovel-mcp)** | 长篇网文写作助手 MCP | 任务书 + 章节提交链 + 伏笔台账 · 九维审查 · 老书迁移基线 · 12 工具 · 19 节提示词 · 380 测试 |
