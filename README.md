@@ -83,6 +83,7 @@
 - 章节提交链 + 伏笔台账 + 人物档案 + 节奏体检
 - **九维审查**：一致性 / 信息隔离 / 文风 / AI 味 / 可选外部查重
 - **老书可升级**：`doctor reconcile` 登记迁移基线，不丢手工设定
+- **附带 WritingMaster 双套装**：13 命令 · 82 切片 · 29 模板 · 五赛道（小说/言情/剧本/剧本杀/工具书）
 - 12 工具 · 380 测试 · 零运行时依赖
 
 [GitHub](https://github.com/zhaopq123/webnovel-mcp) · [Gitee](https://gitee.com/zhaopq/webnovel-mcp)
@@ -105,7 +106,7 @@
 | **[shared-memory-mcp](https://github.com/zhaopq123/shared-memory-mcp)** | 给 AI Agent 的共享记忆服务 | Markdown+git 存储 · 多租户硬隔离 · 会话生命周期 · 9 工具（+7 别名）· 571 测试 |
 | **[social-insight-mcp](https://github.com/zhaopq123/social-insight-mcp)** | 多平台内容选题分析 MCP | 10 源热点聚合 · 跨源交叉验证 · 账号定位匹配 |
 | **[mcp-imagegen](https://github.com/zhaopq123/mcp-imagegen)** | 图片 / 视频生成 MCP 服务器 | 文生图/图生图 · 文生视频/图生视频 · 代码生图/生视频（本地渲染）· 服务端代排队 · 智能退避 · 6 工具 · 713 测试 |
-| **[webnovel-mcp](https://github.com/zhaopq123/webnovel-mcp)** | 长篇网文写作助手 MCP | 任务书 + 章节提交链 + 伏笔台账 · 九维审查 · 老书迁移基线 · 12 工具 · 19 节提示词 · 380 测试 |
+| **[webnovel-mcp](https://github.com/zhaopq123/webnovel-mcp)** | 长篇网文写作助手 MCP | 任务书 + 章节提交链 + 伏笔台账 · 九维审查 · 老书迁移基线 · 12 工具 · 19 节提示词 · 380 测试 · 附 WritingMaster 双套装（13 命令 / 82 切片 / 29 模板） |
 | **[diagram-design-mcp](https://github.com/zhaopq123/diagram-design-mcp)** | 编辑级图表设计系统 MCP | 45 类图表目录 · 8 工具 · 82 图标库 · 单文件 HTML+SVG 产物 · 扁平 schema |
 | **[repo-template](https://github.com/zhaopq123/repo-template)** | 我的开源仓库模板 | README 骨架 · MIT · 通用 .gitignore |
 | **[html](https://github.com/zhaopq123/html)** | 静态 HTML 页面合集（多页小站示例） | HTML/CSS |
