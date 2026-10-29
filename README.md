@@ -10,7 +10,7 @@
 [![Email](https://img.shields.io/badge/Email-ethan.zhao.dev%40outlook.com-blue)](mailto:ethan.zhao.dev@outlook.com)
 [![Gitee](https://img.shields.io/badge/Gitee-zhaopq-c71d23)](https://gitee.com/zhaopq)
 
-**8 个开源项目** · 6 个 MCP 服务 · 全部 **MIT** · 4 个服务在生产 7×24 跑着
+**9 个开源项目** · 6 个 MCP 服务 · 全部 **MIT** · 4 个服务在生产 7×24 跑着
 
 </div>
 
@@ -103,6 +103,7 @@
 <!-- SYNC:PROJECTS:START -->
 | 项目 | 一句话 | 技术点 |
 |---|---|---|
+| **[phone-control-skill](https://github.com/zhaopq123/phone-control-skill)** | 给 AI Agent 的安卓手机控制技能 | UI 树按文字点击 · act 动作即验证 · batch 变量/条件/循环 · uiautomator2 快路 · Windows OCR 视觉兜底 · 多机并发 · 纯标准库（u2 可选） |
 | **[shared-memory-mcp](https://github.com/zhaopq123/shared-memory-mcp)** | 给 AI Agent 的共享记忆服务 | Markdown+git 存储 · 多租户硬隔离 · 会话生命周期 · 9 工具（+7 别名）· 581 测试 |
 | **[social-insight-mcp](https://github.com/zhaopq123/social-insight-mcp)** | 多平台内容选题分析 MCP | 10 源热点聚合 · 跨源交叉验证 · 账号定位匹配 |
 | **[mcp-imagegen](https://github.com/zhaopq123/mcp-imagegen)** | 图片 / 视频生成 MCP 服务器 | 文生图/图生图 · 文生视频/图生视频 · 代码生图/生视频（本地渲染）· 服务端代排队 · 智能退避 · 6 工具 · 713 测试 |
